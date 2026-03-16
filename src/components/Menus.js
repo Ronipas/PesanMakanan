@@ -1,12 +1,12 @@
 import React from "react";
 import { Col, Card } from "react-bootstrap";
-import numberWithCommas from "../utils/utils"; // ✔ default import\
+import numberWithCommas from "../utils/utils"; //
 
 const DaftarMenu = ({ menu, masukKeranjang }) => {
   return (
-    <Col md={6} xs={6} lg={4} className="mb-4 mt-3 ">
+    <Col md={6} xs={6} lg={4} className=" mb-4 mt-3 ">
       <Card
-        className="shadow overflow-hidden flex flex-col h-full"
+        className=" shadow overflow-hidden flex flex-col h-auto cursor-pointer"
         key={menu.id}
         onClick={() => masukKeranjang(menu)}
       >
