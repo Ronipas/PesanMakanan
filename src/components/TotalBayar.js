@@ -30,27 +30,55 @@ class TotalBayar extends Component {
       0,
     );
     return (
-      <div className="fixed-bottom items-center">
-        <Row>
-          <Col md={{ span: 3, offset: 9 }} className="bg-white p-4 text-xl">
-            <h2>
-              Total Bayar :{" "}
-              <strong className="float-right mr-2 ">
-                Rp. {numberWithCommas(totalBayar)}
-              </strong>
-            </h2>
-            <Button
-              variant="primary"
-              block
-              className="mb-2 mt-4 mr-2"
-              size="lg"
-              onClick={() => this.submitTotalBayar(totalBayar)}
-            >
-              <FontAwesomeIcon icon={faShoppingCart} /> <strong>BAYAR</strong>
-            </Button>
-          </Col>
-        </Row>
-      </div>
+      <>
+        {/* Web View */}
+
+        <div className="fixed-bottom d-none d-md-block ">
+          <Row>
+            <Col md={{ span: 3, offset: 9 }} className="bg-white p-4 text-xl">
+              <h2>
+                Total Bayar :{" "}
+                <strong className="float-right mr-2 ">
+                  Rp. {numberWithCommas(totalBayar)}
+                </strong>
+              </h2>
+              <Button
+                variant="primary"
+                block
+                className="mb-2 mt-4 mr-2"
+                size="lg"
+                onClick={() => this.submitTotalBayar(totalBayar)}
+              >
+                <FontAwesomeIcon icon={faShoppingCart} /> <strong>BAYAR</strong>
+              </Button>
+            </Col>
+          </Row>
+        </div>
+
+        {/* Mobile View */}
+
+        <div className="d-sm-block d-md-none ">
+          <Row>
+            <Col md={{ span: 3, offset: 9 }} className="bg-white p-4 text-xl">
+              <h2>
+                Total Bayar :{" "}
+                <strong className="float-right mr-2 ">
+                  Rp. {numberWithCommas(totalBayar)}
+                </strong>
+              </h2>
+              <Button
+                variant="primary"
+                block
+                className="mb-2 mt-4 mr-2"
+                size="lg"
+                onClick={() => this.submitTotalBayar(totalBayar)}
+              >
+                <FontAwesomeIcon icon={faShoppingCart} /> <strong>BAYAR</strong>
+              </Button>
+            </Col>
+          </Row>
+        </div>
+      </>
     );
   }
 }

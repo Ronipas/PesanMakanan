@@ -120,11 +120,11 @@ export default class Hasil extends Component {
 
     return (
       <Col lg={3}>
-        <h1 className="text-2xl mb-2 font-bold">Hasil</h1>
+        <h1 className="text-2xl mt-3 mb-2 font-bold">Hasil</h1>
         <hr />
 
         {keranjangs.length !== 0 && (
-          <Card className="hasil">
+          <Card className="overflow-auto hasil">
             <ListGroup variant="flush">
               {keranjangs.map((menuKeranjang) => (
                 <ListGroup.Item key={menuKeranjang.id}>

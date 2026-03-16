@@ -54,7 +54,7 @@ export default class Kategori extends Component {
     const { ubahCategory, pilihCategory } = this.props;
     return (
       <Col lg={2}>
-        <h2 className="text-2xl mb-2 font-bold">Kategori</h2>
+        <h2 className="text-2xl mt-3 mb-2 font-bold">Kategori</h2>
         <hr />
         <ListGroup className="mt-3 cursor-pointer">
           {this.state.categories &&

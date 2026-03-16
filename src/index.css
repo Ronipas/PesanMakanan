@@ -33,15 +33,11 @@ code {
     source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.hasil {
-  max-height: 650px;
-  overflow-y: auto;
-}
-.hasil::-webkit-scrollbar {
-  width: 5px;
+.overflow-auto::-webkit-scrollbar {
+  display: none;
 }
 
-@media screen and (max-height: 1200px) {
+@media only screen and (max-height: 1000px) {
   .hasil {
     height: 650px;
   }

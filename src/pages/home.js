@@ -133,7 +133,7 @@ export default class Home extends Component {
   render() {
     const { menus, pilihCategory, keranjangs } = this.state;
     return (
-      <div className="mt-5">
+      <div className="mt-3">
         <Container fluid>
           <Row>
             <Kategori
@@ -141,7 +141,7 @@ export default class Home extends Component {
               pilihCategory={pilihCategory}
             />
             <Col>
-              <h2 className="text-2xl mb-2 font-bold">Daftar Menu</h2>
+              <h2 className="text-2xl mb-2 mt-3 font-bold">Daftar Menu</h2>
               <hr />
               <Row className="overflow-auto menu">
                 {menus &&
