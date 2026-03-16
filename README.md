@@ -34,16 +34,24 @@ Beberapa fitur utama dari aplikasi **PesanMakanan**:
 
 ## 📸 Tampilan Aplikasi
 
-#Menu dimasukkan ke keranjang
+# Menu dimasukkan ke keranjang
 
-<img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesan2.png" />
+<img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesan3.png" />
 
-#Tampilan Aplikasi dengan total Pesanan
+# Tampilan Aplikasi dengan total Pesanan
 
 <img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesan1.png" />
 
-#Tampilan Aplikasi setelah total pembayaran
+# Tampilan Edit Pesanan
 
-<img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesan3.png" />
+<img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesanedit.png" />
+
+# Tampilan Hapus Pesanan
+
+<img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesanhapus.png" />
+
+# Tampilan Aplikasi setelah total pembayaran
+
+<img src="https://github.com/Ronipas/PesanMakanan/blob/main/public/assets/images/pesan2.png" />
 
 
