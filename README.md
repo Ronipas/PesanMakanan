@@ -1,7 +1,8 @@
 # 🍔 PesanMakanan App
 
 Aplikasi web sederhana untuk memesan makanan yang dibuat menggunakan **React JS**.  
-Project ini dibuat sebagai latihan dan portfolio untuk memahami konsep **frontend modern**, seperti routing, API request, dan manajemen komponen.
+Project sederhana ini berfokus pada Front End dengan menggunakan API dan JSON. 
+Aplikasi ini bisa menghitung total biaya dari pesanan secara realtime.
 
 ---
 
@@ -16,6 +17,7 @@ Aplikasi ini dibangun menggunakan beberapa teknologi berikut:
 - 🔔 SweetAlert
 - 🧭 React Router
 - 🗂 JSON Placeholder (Local API)
+- 📄 JSON
 
 ---
 
